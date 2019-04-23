@@ -8,7 +8,8 @@
                  [prismatic/schema "1.1.9"]
                  [metosin/compojure-api "2.0.0-alpha26"]
                  [ring/ring-jetty-adapter "1.6.3"]
-                 [toucan "1.1.9"]]
+                 [toucan "1.1.9"]
+                 [ring-cors "0.1.13"]]
   :main ^:skip-aot fykwebdev.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
