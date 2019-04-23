@@ -16,7 +16,7 @@
   {:description (s/constrained s/Str valid-description?)})
 
 (defn id->created [id]
-  (created (str "/todolist/" id) {:student-id id}))
+  (created (str "/todolist/" id) {:id id}))
 
 (defn create-todolist-handler [req student-id]
   (->> req
